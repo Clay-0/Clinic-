@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/774f74ddac.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  </head>
+  <body>
+ <nav>
+       <div class="logo">Logo</div>
+      <ul>
+<li><a class="active" href="index.html">Home</a></li>
+
+      </ul>
+</nav>
+      <section class="log-section">
+          <div class="Container">
+              <div class="user0 singinBx">
+                  <div class="log-img">
+                      <img src="imges/one1.jpg" alt="">
+                  </div>
+                  <div class="formBx">
+                  <form action="">
+                      <h2>Sing In</h2>
+                      <input type="text" name="" placeholder="User name">
+                      <input type="password" name="" placeholder="password">
+                      <input type="submit" name="" value="Login">
+                      <p class="singup">Don't have an account ? <a href="#" onclick="toggleForm();">Sign Up.</a></p>
+                  </form>
+                </div>
+              </div>
+              <div class="user0 singupBx">
+                <div class="formBx">
+                <form action="">
+                    <h2>Crate an account</h2>
+                    <input type="text" name="" placeholder="User name">
+                    <input type="email" name="" placeholder="Email address">
+                    <input type="password" name="" placeholder="Create password">
+                    <input type="password" name="" placeholder="Confirm password">
+                    <input type="submit" name="" value="Sign up">
+                    <p class="singup">Already have an account ? <a href="#" onclick="toggleForm();">Sign in.</a></p>
+                </form>
+              </div>
+              <div class="log-img">
+                <img src="imges/d2.jpg" alt="">
+            </div>
+            </div>
+          </div>
+      </section>
+      <script>
+          function toggleForm() {
+              var container = document.querySelector('.Container');
+              container.classList.toggle('active')
+          } 
+      </script>
+  </body>
+  </html>
