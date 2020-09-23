@@ -1,2 +1,2 @@
-# Clinic-
+# Clinic
 my first project
